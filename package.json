@@ -3,12 +3,17 @@
   "homepage": "https://github.com/DevServer24/jabs-data-app.git",
   "module": "dist/index.m.js",
   "main": "dist/index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unpkg": "dist/index.umd.js",
   "types": "dist/index.d.ts",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevServer24/jabs-data-app.git"
+  },
   "devDependencies": {
     "@types/bun": "latest"
+    
   },
   "scripts": {
     "start": "bun src/index.ts",
@@ -23,6 +28,7 @@
     "@types/jsonwebtoken": "^9.0.6",
     "@types/react": "^18.3.5",
     "bcryptjs": "^2.4.3",
+    "bun-plugin-dts": "^0.2.3",
     "css-loader": "^7.1.2",
     "isomorphic-unfetch": "^4.0.2",
     "lodash": "github:lodash/lodash",
