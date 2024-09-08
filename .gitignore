@@ -170,6 +170,6 @@ dist
 bun.lockb
 # IntelliJ based IDEs
 .idea
-
+dist
 # Finder (MacOS) folder config
 .DS_Store
