@@ -6,7 +6,7 @@ interface ButtonProps {
   className?: string;
   onClick?: React.ReactEventHandler<HTMLButtonElement>;
   type?: "button" | "reset" | "submit";
-  variant?: "default" | "secondary" | "link"; // Different variants
+  variant?: "default" | "secondary" | "link" | "main"; // Different variants
   onLoading?: React.ReactEventHandler<HTMLButtonElement>; // Loading animation handler
   children?: React.ReactNode;
 }
